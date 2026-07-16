@@ -1,0 +1,42 @@
+.landingBanner {
+    margin-bottom: 150px;
+}
+
+.content {
+    color: var(--text-secondary);
+}
+
+.contentTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentTopLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.intro {
+    font-size: 3rem;
+    font-weight: bold;
+    white-space: pre;
+    text-align: center;
+}
+
+
+.contentTopRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.userExample {
+    width: 65%;
+}

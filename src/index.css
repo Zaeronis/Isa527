@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cinzel Decorative', serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  position: relative;
+}
+
+.glare-container {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.glare {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(8vw);
+  opacity: 0.3;
+  mix-blend-mode: lighten;
+}
+
+.g1 { width: 14vw; height: 14vw; background: rgb(var(--glow-1)); top: 10%; left: 10%; animation: drift-1 18s infinite ease-in-out alternate; }
+.g2 { width: 8vw; height: 8vw; background: rgb(var(--glow-2)); top: 60%; left: 80%; animation: drift-2 22s infinite ease-in-out alternate; }
+.g3 { width: 16vw; height: 16vw; background: rgb(var(--glow-3)); top: 80%; left: 40%; animation: drift-3 25s infinite ease-in-out alternate; }
+.g4 { width: 6vw; height: 6vw; background: rgb(var(--glow-4)); top: 20%; left: 70%; animation: drift-4 15s infinite ease-in-out alternate; }
+.g5 { width: 11vw; height: 11vw; background: rgb(var(--glow-1)); top: 40%; left: 20%; animation: drift-5 28s infinite ease-in-out alternate; }
+.g6 { width: 10vw; height: 10vw; background: rgb(var(--glow-2)); top: 70%; left: 10%; animation: drift-6 20s infinite ease-in-out alternate; }
+.g7 { width: 12vw; height: 12vw; background: rgb(var(--glow-3)); top: 30%; left: 50%; animation: drift-7 17s infinite ease-in-out alternate; }
+
+@keyframes drift-1 { 0% { transform: translate(0,0); } 100% { transform: translate(60vw, 40vh); } }
+@keyframes drift-2 { 0% { transform: translate(0,0); } 100% { transform: translate(-70vw, 20vh); } }
+@keyframes drift-3 { 0% { transform: translate(0,0); } 100% { transform: translate(20vw, -50vh); } }
+@keyframes drift-4 { 0% { transform: translate(0,0); } 100% { transform: translate(-40vw, 60vh); } }
+@keyframes drift-5 { 0% { transform: translate(0,0); } 100% { transform: translate(50vw, -40vh); } }
+@keyframes drift-6 { 0% { transform: translate(0,0); } 100% { transform: translate(70vw, -30vh); } }
+@keyframes drift-7 { 0% { transform: translate(0,0); } 100% { transform: translate(-50vw, 40vh); } }
+
+.title {
+  background: linear-gradient(to bottom, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+  text-shadow: 0 0 10px rgba(191, 149, 63, 0.3);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}

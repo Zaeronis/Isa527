@@ -1,0 +1,16 @@
+.verseNum {
+    vertical-align: top;
+    font-size: 12px;
+    color: red;
+}
+
+.verseBlock {
+    color: var(--text-primary);
+    margin-right: 10px;
+}
+
+.verseInline {
+    color: var(--text-primary);
+    margin-right: 10px;
+    display: inline;
+}

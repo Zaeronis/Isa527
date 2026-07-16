@@ -1,0 +1,38 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    border-bottom: var(--border-style);
+    border-image: var(--border-gradient) 1;
+    min-height: 70px;
+}
+
+.titleBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+}
+
+.titleSpan {
+    color: var(--text-secondary);
+    position: relative;
+    vertical-align: top;
+    top: 12px;
+    font-size: 16px;
+}
+
+.logoBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.logo {
+    width: 60px;
+}

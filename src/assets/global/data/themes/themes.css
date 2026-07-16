@@ -1,0 +1,10 @@
+:root {
+    --bg-color: #0c0a0a;
+    --card-bg: transparent;
+    --glow-1: 255 255 255; --glow-2: 255 215 0;
+    --glow-3: 255 248 220; --glow-4: 218 165 32;
+    --text-primary: #fffaf0;
+    --text-secondary: #b8a6a6;
+    --border-style: 3px solid transparent;
+    --border-gradient: linear-gradient(135deg, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+}
